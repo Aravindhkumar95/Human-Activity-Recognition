@@ -26,4 +26,17 @@ Random Forest is nothing but comprised of Decision trees. It can be used for bot
 
 ### Support Vector Machine
 
+Support Vector machine can be employed for both Classification and Regression, but it mainly considered for an Classification problems.SVM creates a multidimensional space to seperate a set of objects with different class using Hyperplane. Main goal of SVM is to find the most appropriate hyperplane to reduce the error that divides classes perfectly in the dataset.Points are closer to hyper plane are called support vector which is used to calculate margins. Margin is nothing but a gap between two lines on the support vector points and margin calculated based on the perpendicular distance from the line to support vector. So if the Margin is high than the margin is good so the SVM searches for the hyperplane which has maximum margin value between the support vectors.
 
+
+## Evaluation
+
+Naive Bayes Classifier - Accuracy -> 0.77, Cross-validation score -> 0.69
+
+Random Forest Classifer - Accuracy -> 0.92, Cross-validation score -> 0.91
+
+Support Vector Machine - Accuracy -> 0.96, Cross-validation score -> 0.93
+
+## Result
+
+After building the three classification models helps us to narrow down to an accurate prediction of 96%. This precision is achieved by using Support Vector Machine classification model. This result is concluded after analysing the accuracy score, confusion matrix. Thus, to determine the human activity based on sensors, it is recommended to use SVM to predict accurately.
